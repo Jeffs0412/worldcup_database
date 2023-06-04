@@ -69,7 +69,7 @@ The World Cup database consists of the following tables:
 
 ### Here are some examples of queries you can perform on the World Cup database:
 
-Automatically insert all the data from the games.csv file:
+Automatically insert all the data from the games.csv file by running the `insert_data.sh` bash script:
 
 ```bash
 $ ./insert_data.sh
@@ -132,7 +132,7 @@ Inserted Opponent in teams table, United States
 Insert Game Data in games table for Year, 2014
 ```
 
-Show all the relevant data based on each query's description in the queries.sh file:
+Show all the relevant data based on each query's description in the queries.sh file by running the `queries.sh` bash script:
 
 ```bash
 $ ./queries.sh
