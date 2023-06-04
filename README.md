@@ -14,8 +14,6 @@ To use the World Cup database, follow these steps:
 
 4. Import the database schema and data: `psql -d worldcup -f worldcup.sql`
 
-5. Verify that the database and tables were created successfully.
-
 ### Setting up Password Authentication
 
 By default, PostgreSQL prompts for a password when connecting to a database. However, you can automate this process by using the `PGPASSWORD` variable. Here's how you can set it up:
