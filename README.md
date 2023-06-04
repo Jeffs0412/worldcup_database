@@ -2,6 +2,10 @@
 
 This project is a World Cup database that contains information about games played in various World Cup tournaments. The database is implemented using PostgreSQL and consists of two tables: games and teams.
 
+The database provides information about individual games, including the year, round, teams involved, and the goals scored by each team. It also stores data about the participating teams, including their IDs and names.
+
+To facilitate easy installation and usage, the project includes bash scripts that allow users to automatically insert data from a CSV file into the database and perform various queries to retrieve relevant information. The scripts are designed to handle different scenarios, such as inserting data for testing purposes or querying specific statistics.
+
 ## Installation
 
 To use the World Cup database, follow these steps:
