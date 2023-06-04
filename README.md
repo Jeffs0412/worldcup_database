@@ -69,7 +69,7 @@ The World Cup database consists of the following tables:
 
 ### Here are some examples of queries you can perform on the World Cup database:
 
-Automatically insert all the data from the games.csv file by running the `insert_data.sh` bash script:
+Automatically insert all the data from the games.csv file:
 
 ```bash
 $ ./insert_data.sh
@@ -132,7 +132,7 @@ Inserted Opponent in teams table, United States
 Insert Game Data in games table for Year, 2014
 ```
 
-Show all the relevant data based on each query's description in the queries.sh file by running the `queries.sh` bash script:
+Show all the relevant data based on each query's description in the queries.sh file:
 
 ```bash
 $ ./queries.sh
@@ -205,13 +205,13 @@ Costa Rica
 
 ## Course Resources
 
-This project was created as part of the [FreeCodeCamp Relational Database Course](https://www.freecodecamp.org/learn/relational-database/). The course provides in-depth guidance and resources on building and managing relational databases. It can be a valuable resource to deepen your understanding of database concepts and enhance your skills.
+This project was created as part of the [FreeCodeCamp Relational Database Course](https://www.freecodecamp.org/learn/relational-database/){:target="_blank"}. The course provides in-depth guidance and resources on building and managing relational databases. It can be a valuable resource to deepen your understanding of database concepts and enhance your skills.
 
 ## Contact
 
 You can reach out to me through the following channels:
 - Email: manalejefferson@gmail.com
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/jefferson-manale/)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/jefferson-manale/){:target="_blank"}
 
 Feel free to explore the project and get in touch!
 
