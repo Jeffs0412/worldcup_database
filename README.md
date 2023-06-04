@@ -205,13 +205,13 @@ Costa Rica
 
 ## Course Resources
 
-This project was created as part of the [FreeCodeCamp Relational Database Course](https://www.freecodecamp.org/learn/relational-database/){:target="_blank"}. The course provides in-depth guidance and resources on building and managing relational databases. It can be a valuable resource to deepen your understanding of database concepts and enhance your skills.
+This project was created as part of the [FreeCodeCamp Relational Database Course](https://www.freecodecamp.org/learn/relational-database/). The course provides in-depth guidance and resources on building and managing relational databases. It can be a valuable resource to deepen your understanding of database concepts and enhance your skills.
 
 ## Contact
 
 You can reach out to me through the following channels:
 - Email: manalejefferson@gmail.com
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/jefferson-manale/){:target="_blank"}
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/jefferson-manale/)
 
 Feel free to explore the project and get in touch!
 
