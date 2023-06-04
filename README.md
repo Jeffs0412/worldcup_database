@@ -211,7 +211,7 @@ This project was created as part of the [FreeCodeCamp Relational Database Course
 
 You can reach out to me through the following channels:
 - Email: manalejefferson@gmail.com
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/jefferson-manale/)
+- LinkedIn: https://www.linkedin.com/in/jefferson-manale/
 
 Feel free to explore the project and get in touch!
 
