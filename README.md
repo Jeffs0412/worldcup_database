@@ -42,7 +42,7 @@ By default, PostgreSQL prompts for a password when connecting to a database. How
     export PGPASSWORD='mypass'
     PSQL="psql --username=postgres --dbname=worldcup --no-align --tuples-only -c"
     ```
-    Replace 'mypass' with the actual password for your PostgreSQL database.
+    Replace 'mypass' and 'postgres' with the actual password and username respecively for your PostgreSQL database.
 
     By setting the `PGPASSWORD` environment variable in the shell script, as shown in the provided example, the script ensures that the password is automatically supplied to the psql command when it is executed. This allows the script to connect to the database without requiring manual intervention or password input from the user.
 ## Usage
