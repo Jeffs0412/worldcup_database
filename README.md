@@ -21,37 +21,41 @@ By default, PostgreSQL prompts for a password when connecting to a database. How
 1. Open the terminal and navigate to the project directory: `cd worldcup_database`
 2. Set the `PGPASSWORD` environment variable with the actual password for your PostgreSQL database. To do this, enter the following command in the terminal:
    ```bash
-   set PGPASSWORD=mypass 
+   set PGPASSWORD=mypass
    ```
-    Replace 'mypass' with the actual password for your PostgreSQL database.
+   Replace 'mypass' with the actual password for your PostgreSQL database.
 3. Open the insert_data.sh and queries.sh scripts in a text editor. Export the `PGPASSWORD` environment variable with the actual password for your PostgreSQL database:
-    ```bash
-    #insert_data.sh
 
-    export PGPASSWORD='mypass'
-    if [[ $1 == "test" ]]
-    then
-      PSQL="psql --username=postgres --dbname=worldcuptest -t --no-align -c"
-    else
-      PSQL="psql --username=postgres --dbname=worldcup -t --no-align -c"
-    fi
-    ```
-    ```bash
-    #queries.sh
+   ```bash
+   #insert_data.sh
 
-    export PGPASSWORD='mypass'
-    PSQL="psql --username=postgres --dbname=worldcup --no-align --tuples-only -c"
-    ```
-    Replace 'mypass' with the actual password for your PostgreSQL database.
+   export PGPASSWORD='mypass'
+   if [[ $1 == "test" ]]
+   then
+     PSQL="psql --username=postgres --dbname=worldcuptest -t --no-align -c"
+   else
+     PSQL="psql --username=postgres --dbname=worldcup -t --no-align -c"
+   fi
+   ```
 
-    By setting the `PGPASSWORD` environment variable in the shell script, as shown in the provided example, the script ensures that the password is automatically supplied to the psql command when it is executed. This allows the script to connect to the database without requiring manual intervention or password input from the user.
+   ```bash
+   #queries.sh
+
+   export PGPASSWORD='mypass'
+   PSQL="psql --username=postgres --dbname=worldcup --no-align --tuples-only -c"
+   ```
+
+   Replace 'mypass' with the actual password for your PostgreSQL database.
+
+   By setting the `PGPASSWORD` environment variable in the shell script, as shown in the provided example, the script ensures that the password is automatically supplied to the psql command when it is executed. This allows the script to connect to the database without requiring manual intervention or password input from the user.
+
 ## Usage
 
 The World Cup database provides information about games played in different tournaments, including the year, round, teams involved, and the goals scored by each team.
 
 To interact with the database, you can use the provided bash scripts:
 
-- `insert_data.sh`: This script automatically inserts all the data from the `games.csv` file into the `games` table of the database.
+- `insert_data.sh`: This script automatically inserts all the data from the `games.csv` file into the `games` and `teams` table of the database.
 
 - `queries.sh`: This script contains bash scripts to automatically show relevant data from the database based on the description provided above each query.
 
@@ -210,10 +214,10 @@ This project was created as part of the [FreeCodeCamp Relational Database Course
 ## Contact
 
 You can reach out to me through the following channels:
+
 - Email: manalejefferson@gmail.com
-- LinkedIn: https://www.linkedin.com/in/jefferson-manale/
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/jefferson-manale/)
 
 Feel free to explore the project and get in touch!
 
 ---
-
